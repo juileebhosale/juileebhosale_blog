@@ -37,8 +37,9 @@ Learn more about Git terminology [here](https://docs.github.com/en/get-started/q
 Let's start with the simplest step - creating your Git repository. Typically you can create a online repository on Github.com and sync it to your local system. This way you can code in you local system and "push" the changes to remote. The remote repository will keep a history of changes and also alert you if files on local and remote don't match during push pull requests.
 
 1. To create a remote repository go to the repositories tab on your dashboard and then click on new
-![Screen Shot 2022-08-20 at 9 01 03 PM](https://user-images.githubusercontent.com/42019236/185772293-cdd0864f-1904-42d7-ad5c-b8c3e6ab3094.png)
+![Create new remote repository](https://user-images.githubusercontent.com/42019236/185772293-cdd0864f-1904-42d7-ad5c-b8c3e6ab3094.png)
 
 2. Give a suitable name to your repository. You can also check the create README file box which creates information text file for the repository  
-![Screen Shot 2022-08-20 at 9 07 18 PM](https://user-images.githubusercontent.com/42019236/185772339-1dc32c50-01a0-455b-a242-e54111ee6b60.png)
+![Name repository](https://user-images.githubusercontent.com/42019236/185772668-a3fcf5ca-392b-4b11-9cd2-531f281351cf.png)
+
 
