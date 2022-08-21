@@ -54,33 +54,34 @@ Let's start with the simplest step - creating your Git repository. Typically you
 Your local repository has now been created and contains all files in your online repository. You can now code in your local and push changes to remote or vice versa. Remember local and remote repo are not automatically synced. We need to execute push pull commands to update them.
 
 ### Push - Pull requests
-Okay now that we haveclone repositories created let's see how to actually use them. In this part we'll create a local file and "push" to remote. We'll also see how Github deals with files having conflicting code and ways to resolve conflicts
+Okay now that we have clone repositories created let's see how to actually use them. In this part we'll create a local file and "push" to remote. We'll also see how Github deals with files having conflicting code and ways to resolve conflicts
 
-First let's start by creating a code file in our local repository. You can create any code file or python text file as well. I'm starting with a simple text file for convinience. 
-You can create a file without using shell commands. Here I use touch to create an empty text file
+1. First let's start by creating a code file in our local repository. You can create any code file or python text file as well. I'm starting with a simple text file for convinience. You can create a file without using shell commands. Here I use touch to create an empty text file
 ``` shell
 cd Github_basics
 touch sample_code.txt
 ```
-Typing ls will now show two files (README and sample_code.txt) instead of 1.
-Git status will give you the status of how similar or different local and remote repositories are
+Use the 'ls' command to list all files in the git branch. It will now show two files (README and sample_code.txt) instead of one.
+Git status is another command that will show you how similar or different local and remote repositories are
 ```shell
 git status
 ```
 Typing git status after creating sample file will show one untracked file 
+
 ![Git status after file creation](https://user-images.githubusercontent.com/42019236/185778398-f704d3d7-8606-4a5c-b709-28244dbdbe50.png)
 
 
-Now let's push this untracked file to remote. To do this we first need to "add" this file to push, commit it and then push. Add simply tells terminal what and which files are to be queued to push to remote. Commit will commit or save any changes to the file and finally push will upload the file in its final stage to the remote repository
+2. Now let's push this untracked file to remote. To do this we first need to "add" this file to push, commit it and then push. Add simply tells terminal what and which files are to be queued to push to remote. Commit will commit or save any changes to the file and finally push will upload the file in its final stage to the remote repository
 ```shell
 git add sample_code.txt
 ```
 Typing git status after this shows that the new file is no longer untracked but added to queue
+
 ![Git status after Git add](https://user-images.githubusercontent.com/42019236/185778448-99cb81b3-6897-4dab-96a6-ad46ed60e804.png)
 
-Now let's finally push our changes to remote. The git push will push all queued files mentioned in git add to remote. Note in this case we didn't make any changes to the file in local and just pushed an empty file - but if were have done that we would have needed to use commit and then push
+3. Now let's finally push our changes to remote. The git push will push all queued files mentioned in git add to remote. Note in this case we didn't make any changes to the file in local and just pushed an empty file - but if were have done that we would have needed to use commit and then push
 ```shell
 git push 
 ```
 
-
+Congratulations you have created your first Git repository and pushed a file from local to remote repository!
