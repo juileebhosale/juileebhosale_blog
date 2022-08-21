@@ -1,6 +1,6 @@
 ## Github for babies
 
-### How to be not scared shell coding
+### How not to be scared shell coding
 
 If you are also in a coding occupation like me but get the mini panic attacks when someone mentions "bash commands" or "Linux" and don't know what the hell that Github app is and why can't I find it on app store - welcome this tutorial is for you!
 
@@ -41,5 +41,12 @@ Let's start with the simplest step - creating your Git repository. Typically you
 
 2. Give a suitable name to your repository. You can also check the create README file box which creates information text file for the repository  
 ![Name repository](https://user-images.githubusercontent.com/42019236/185772668-a3fcf5ca-392b-4b11-9cd2-531f281351cf.png)
+
+3. Next step is to create a clone repository in your local. To do this - open your online repository and click on the code button on the top right. Copy the HTTPS link.
+![Copy Git repository link](https://user-images.githubusercontent.com/42019236/185777450-0e43a874-9eee-4fa5-b16d-704b91bf9576.png)
+
+4. Next open terminal (search cmd in Windows or terminal on MacOS) and type `git clone <copied https link>`
+![Create clone repository in your local](https://user-images.githubusercontent.com/42019236/185777517-d4cc4ddf-c932-49f7-8bf6-c7ec1bc1e7e6.png)
+
 
 
