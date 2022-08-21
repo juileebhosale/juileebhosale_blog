@@ -67,7 +67,20 @@ Git status will give you the status of how similar or different local and remote
 ```shell
 git status
 ```
-Typing git status after creating sample file will show one untracked file
-![Git status after new file creation](https://user-images.githubusercontent.com/42019236/185778145-9f11eee9-9c3b-430e-b97b-b94a5ad9b02d.png)
+Typing git status after creating sample file will show one untracked file 
+![Git status after file creation](https://user-images.githubusercontent.com/42019236/185778398-f704d3d7-8606-4a5c-b709-28244dbdbe50.png)
+
+
+Now let's push this untracked file to remote. To do this we first need to "add" this file to push, commit it and then push. Add simply tells terminal what and which files are to be queued to push to remote. Commit will commit or save any changes to the file and finally push will upload the file in its final stage to the remote repository
+```shell
+git add sample_code.txt
+```
+Typing git status after this shows that the new file is no longer untracked but added to queue
+![Git status after Git add](https://user-images.githubusercontent.com/42019236/185778448-99cb81b3-6897-4dab-96a6-ad46ed60e804.png)
+
+Now let's finally push our changes to remote. The git push will push all queued files mentioned in git add to remote. Note in this case we didn't make any changes to the file in local and just pushed an empty file - but if were have done that we would have needed to use commit and then push
+```shell
+git push 
+```
 
 
