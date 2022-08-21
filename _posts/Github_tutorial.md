@@ -45,8 +45,29 @@ Let's start with the simplest step - creating your Git repository. Typically you
 3. Next step is to create a clone repository in your local. To do this - open your online repository and click on the code button on the top right. Copy the HTTPS link.
 ![Copy Git repository link](https://user-images.githubusercontent.com/42019236/185777450-0e43a874-9eee-4fa5-b16d-704b91bf9576.png)
 
-4. Next open terminal (search cmd in Windows or terminal on MacOS) and type `git clone <copied https link>`
-![Create clone repository in your local](https://user-images.githubusercontent.com/42019236/185777517-d4cc4ddf-c932-49f7-8bf6-c7ec1bc1e7e6.png)
+4. Next open terminal (search cmd in Windows or terminal on MacOS) and type 
 
+  `git clone <copied https link>` 
+  
+  ![Create clone repository in your local](https://user-images.githubusercontent.com/42019236/185777517-d4cc4ddf-c932-49f7-8bf6-c7ec1bc1e7e6.png)
+
+Your local repository has now been created and contains all files in your online repository. You can now code in your local and push changes to remote or vice versa. Remember local and remote repo are not automatically synced. We need to execute push pull commands to update them.
+
+### Push - Pull requests
+Okay now that we haveclone repositories created let's see how to actually use them. In this part we'll create a local file and "push" to remote. We'll also see how Github deals with files having conflicting code and ways to resolve conflicts
+
+First let's start by creating a code file in our local repository. You can create any code file or python text file as well. I'm starting with a simple text file for convinience. 
+You can create a file without using shell commands. Here I use touch to create an empty text file
+``` shell
+cd Github_basics
+touch sample_code.txt
+```
+Typing ls will now show two files (README and sample_code.txt) instead of 1.
+Git status will give you the status of how similar or different local and remote repositories are
+```shell
+git status
+```
+Typing git status after creating sample file will show one untracked file
+![Git status after new file creation](https://user-images.githubusercontent.com/42019236/185778145-9f11eee9-9c3b-430e-b97b-b94a5ad9b02d.png)
 
 
