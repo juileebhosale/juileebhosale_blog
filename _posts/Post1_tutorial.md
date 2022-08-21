@@ -39,6 +39,6 @@ Let's start with the simplest step - creating your Git repository. Typically you
 1. To create a remote repository go to the repositories tab on your dashboard and then click on new
 ![Screen Shot 2022-08-20 at 9 01 03 PM](https://user-images.githubusercontent.com/42019236/185772293-cdd0864f-1904-42d7-ad5c-b8c3e6ab3094.png)
 
-2. Give a suitable name to your repository. You can also check the create README file box which creates information text file for the repository
+2. Give a suitable name to your repository. You can also check the create README file box which creates information text file for the repository  
 ![Screen Shot 2022-08-20 at 9 07 18 PM](https://user-images.githubusercontent.com/42019236/185772339-1dc32c50-01a0-455b-a242-e54111ee6b60.png)
 
