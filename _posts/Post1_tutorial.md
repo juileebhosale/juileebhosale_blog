@@ -8,7 +8,7 @@ If you are also in a coding occupation like me but get the mini panic attacks wh
 
 
 ### What is Github
-First things first let's start with by understanding what is Github and why you see every coder talk about it. In the most simplest words, Github is nothing but a sophisticated version control tool - kinda like Google docs for coders.
+First things first let's start with by understanding what is Github and why you see every coder talk about it. In the most simplest words, Github is a version control tool - kinda like Google docs but for coders.
 
 Imagine this - you and another coder are working on the same code file but own different aspects of the code. You both work started working on a code which had 10 lines initially but you deleted line 2 and added 3 new lines. Meanwhile your colleague changed line 3 and added some of his code.
 Now it's time to put the code together in one. But uh oh, your colleague will have completely different code file than you.
@@ -31,4 +31,7 @@ Before we jump into the fun stuff - here's a quick overview of some common Git t
 
 * **Merge** - Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a "pull request" (which can be thought of as a request to merge), or via the command line
 
+Learn more about Git terminology [here](tab:https://docs.github.com/en/get-started/quickstart/github-glossary)
+
+### Creating your Git repository
 
